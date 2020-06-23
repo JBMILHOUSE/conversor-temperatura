@@ -11,7 +11,6 @@ public class resultado extends AppCompatActivity {
     TextView tvResultadoFahrenheit;
     TextView tvResultadoKelvin;
 
-   // double calKel = 273.15;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
