@@ -11,7 +11,7 @@
         android:id="@+id/tvTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Conversor Temperatura"
+        android:text="Conversor de Temperatura"
         android:textColor="@android:color/background_dark"
         android:textSize="24dp"
         android:layout_marginTop="50dp"/>
@@ -29,7 +29,7 @@
         android:id="@+id/edtCelsius"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
+        android:inputType="numberDecimal|numberSigned"
         android:layout_marginTop="20dp"
         android:maxLength="5"/>
 

@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(edtCelsius.getText().toString().equals("")){
+                    tvMensagens.setText("Entre com número para fazer a conversão");
 
                 }else{
                     tvMensagens.setText("");

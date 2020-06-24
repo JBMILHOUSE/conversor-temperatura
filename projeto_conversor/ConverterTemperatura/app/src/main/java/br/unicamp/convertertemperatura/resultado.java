@@ -24,10 +24,8 @@ public class resultado extends AppCompatActivity {
         tvResultadoFahrenheit = findViewById(R.id.tvResultadoFahrenheit);
         tvResultadoKelvin = findViewById(R.id.tvResultadoKelvin);
 
-        tvResultadoFahrenheit.setText(String.valueOf((varFahrenheit * 1.8) + 32));
-        tvResultadoKelvin.setText((String.valueOf(varKelvin + 273.15)));
+        tvResultadoFahrenheit.setText((varFahrenheit * 1.8) + 32 + " ºF");
+        tvResultadoKelvin.setText(varKelvin + 273.15 + " K");
 
-        // varFahrenheit = (celsius* 1.8) + 32
-        // varKelvin = celsius + 273.15
     }
 }
