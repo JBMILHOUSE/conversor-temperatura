@@ -21,14 +21,17 @@ public class resultado extends AppCompatActivity {
 
         Intent intent = getIntent();
         Bundle params = intent.getExtras();
-        Double varFahrenheit = params.getDouble("varCelsius");
-        Double varKelvin = params.getDouble("varCelsius");
+        Double celsius = params.getDouble("varCelsius");
+
 
         tvResultadoFahrenheit = findViewById(R.id.tvResultadoFahrenheit);
         tvResultadoKelvin = findViewById(R.id.tvResultadoKelvin);
 
-        tvResultadoFahrenheit.setText((varFahrenheit * 1.8) + 32 + " ºF");
-        tvResultadoKelvin.setText(varKelvin + 273.15 + " K");
+        Double varFahrenheit  = (celsius * 1.8) + 32;
+        Double varKelvin = celsius + 273.15;
+
+        tvResultadoFahrenheit.setText(varFahrenheit.toString());
+        tvResultadoKelvin.setText(varKelvin.toString());
 
     }
 }
