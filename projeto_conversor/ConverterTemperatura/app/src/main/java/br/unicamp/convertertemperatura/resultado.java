@@ -29,8 +29,8 @@ public class resultado extends AppCompatActivity {
         Double varFahrenheit  = (celsius * 1.8) + 32;
         Double varKelvin = celsius + 273.15;
 
-        tvResultadoFahrenheit.setText(varFahrenheit.toString());
-        tvResultadoKelvin.setText(varKelvin.toString());
+        tvResultadoFahrenheit.setText(varFahrenheit.toString() + " ºF");
+        tvResultadoKelvin.setText(varKelvin.toString() + " K");
 
     }
 }
