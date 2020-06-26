@@ -23,7 +23,6 @@ public class resultado extends AppCompatActivity {
         Bundle params = intent.getExtras();
         Double celsius = params.getDouble("varCelsius");
 
-
         tvResultadoFahrenheit = findViewById(R.id.tvResultadoFahrenheit);
         tvResultadoKelvin = findViewById(R.id.tvResultadoKelvin);
 

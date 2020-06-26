@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(MainActivity.this, resultado.class);
                     Bundle params = new Bundle();
+                    double mgsCel = varCelsius;
 
+                    params.putDouble("varCelsius", mgsCel);
                     intent.putExtras(params);
                     startActivity(intent);
 
